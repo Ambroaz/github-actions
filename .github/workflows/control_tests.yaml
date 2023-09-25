@@ -1,5 +1,8 @@
 name: Control Push
-on: push
+  on: 
+    push:
+      branches:
+        - "master"
 jobs:
   qa:
     name: Check tests
